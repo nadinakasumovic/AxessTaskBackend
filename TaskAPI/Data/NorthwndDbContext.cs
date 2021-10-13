@@ -19,6 +19,7 @@ namespace TaskAPI.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<ShipVia> Shippers { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
